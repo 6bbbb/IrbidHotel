@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----Main---- */
+body {
+    background: #666;
+    font-family: "Zain", serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #261308;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+
+/* Utilities */
+
+.container{
+    margin: 0;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+/* Navbar */
+#navbar {
+    background: #8C5B3F;
+    color: white;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    font-size: 42px;
+    padding: 24px 0px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    font-size: 24px;
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+    border: solid 5px transparent;
+    transition: .3s;
+}
+
+#navbar ul li a:hover {
+    color: #f18343;
+    border-bottom: solid 5px #261308;
+}
+.current{
+    background-color: #6c4631;
+}
