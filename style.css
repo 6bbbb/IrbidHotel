@@ -38,6 +38,12 @@ p {
     padding: 0px 20px;
 }
 
+.text-primary{
+    color: #c57600;
+    text-shadow: 2px 0px 2px #000000bb;
+
+}
+
 /* Navbar */
 #navbar {
     background: #8C5B3F;
@@ -79,4 +85,27 @@ p {
 }
 .current{
     background-color: #6c4631;
+}
+
+
+/* Showcase */
+
+#showcase{
+    /* background: url('img/img-1.jpg') no-repeat
+    center center/cover; */
+    background: url('img/img-1.jpg') no-repeat
+    center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: #333;
+    text-align: center;
+    padding-top: 170px;
+}
+
+
+#showcase .showcase-content h1{
+    font-size: 100px;
+    line-height: 1.2em;
 }
