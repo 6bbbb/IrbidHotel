@@ -131,6 +131,7 @@ p {
 
 #navbar ul li {
     float: left;
+    cursor: pointer;
 }
 
 #navbar ul li a {
