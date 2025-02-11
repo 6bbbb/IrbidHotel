@@ -244,6 +244,12 @@ p {
     display: block;
     margin: 10px auto;
     border-radius: 40%;
+    filter:brightness(.9);
+}
+
+.info-right img:hover {
+    filter:brightness(1.2);
+
 }
 
 .info-left {
@@ -260,17 +266,16 @@ p {
 
 /* testimonoals */
 #testimonials {
-    background: url('img/img-4.jpg') no-repeat center center/cover;
+    background: url('https://i.pinimg.com/originals/8d/d7/e9/8dd7e91ae4c73f27054ca0fb43bc80e3.gif') no-repeat center center/cover;
     padding: 100px;
-
-
+    max-height: 750px;
 }
 
 
 
 #testimonials  h2{
     color: white;
-    margin: 20px 0;
+    margin : 20px 0;
     text-align: center;
 }
 
@@ -304,6 +309,59 @@ p {
 #testimonials .testimonial img:hover{
     filter: brightness(1.0);
 }
+
+/* Contact form */
+#contact-form .container{
+    background: #666;
+    padding: 30px;
+
+}
+#contact-form .form-group{
+    margin: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input ,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #555;
+    background: #bbb;
+
+}
+
+#contact-form input:focus ,
+#contact-form textarea:focus{
+    outline: none;
+    border: solid 1px #dba14b;
+
+
+}
+
+#contact-form input:hover ,
+#contact-form textarea:hover{
+    box-shadow: 0px 0px 80px rgba(224, 143, 37, 0.2);
+
+}
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form  .container .btn{
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+
+/* Contact info */
+#contact-info .container{
+    padding: 0px;
+}
+
+
 
 /* footer */
 #main-footer {

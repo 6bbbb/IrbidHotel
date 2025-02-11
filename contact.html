@@ -5,22 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Irbid Hotel | About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Irbid Hotel | Contact</title>
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <nav id="navbar">
             <div class="container">
                 <h1 class="logo"><a href="index.html">IBH</a></h1>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li ><a href="about.html">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li class="current"><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+
+    <!-- Contact Form -->
+    <section id="contact-form">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+            <p>Please fill out the form below to contact us</p>
+            <!-- form -->
+            <form action="process.php">
+                <!-- name -->
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <!-- email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <!-- message -->
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <!-- submit -->
+                 <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact info -->
+     <section id="contact-info">
+        <div class="container">
+            <div class="box bg-dark2">
+                <i class="fa-solid fa-hotel"></i>
+                <h3> Location</h3>
+                <p>
+                    Irbid ,Al-Husn
+                </p>
+            </div>
+            <div class="box bg-dark2">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone Number</h3>
+                <p>+962799999999</p>
+            </div>
+            <div class="box bg-dark2">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>IrbidHotel@fakemail.com</p>
+            </div>
+        </div>
+     </section>
     <!-- footer -->
     <footer id="main-footer">
         <p>Irbid Hotel &copy; 2025 All Rights Reserved </p>
