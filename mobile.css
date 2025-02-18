@@ -15,9 +15,17 @@
     padding: 5px;
     border-bottom: #e0570882 dotted 1px;
 }
+/* Showcase */
+#showcase {
 
+    height: 600px;
+}
+#showcase .showcase-content {
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+}
 /* Home Info */
-
 #home-info .info-img {
     display: none;
 }
@@ -85,7 +93,15 @@
 }
 
 #testimonials .testimonial {
-    width: 90%;
+    width: 95%;
     padding: 5px;
     margin-bottom: 40px;
+}
+
+#contact-form  .container h1 {
+    margin: 10px 0 ;
+}
+/* Contact */
+.box{
+    border-bottom: dotted 1px;
 }
