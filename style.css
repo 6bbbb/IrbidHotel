@@ -118,7 +118,7 @@ p {
     color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     font-size: 42px;
     padding: 24px 0px;
@@ -189,6 +189,7 @@ p {
 
 #home-info {
     height: 400px;
+
 }
 
 #home-info .info-img {
@@ -267,7 +268,7 @@ p {
 
 /* testimonoals */
 #testimonials {
-    background: url('https://i.pinimg.com/originals/8d/d7/e9/8dd7e91ae4c73f27054ca0fb43bc80e3.gif') no-repeat center center/cover;
+    background: url('https://i.pinimg.com/originals/bd/4b/45/bd4b45c72d463584da6fd4d4baf309aa.gif') no-repeat center center/cover;
     padding: 100px;
     max-height: 750px;
 }

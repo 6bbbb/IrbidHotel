@@ -1,0 +1,91 @@
+/* navbar */
+
+
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+    float: none;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #e0570882 dotted 1px;
+}
+
+/* Home Info */
+
+#home-info .info-img {
+    display: none;
+}
+
+#home-info {
+    height: fit-content;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+#home-info .info-content h1 {
+    line-height:3.5rem
+}
+
+/* Features */
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* About Page */
+.info-left {
+    float: none;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.info-left h1 {
+    line-height:3.5rem
+}
+
+.info-right {
+    float: none;
+    width: 100%;
+}
+
+.info-right img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 2%;
+    filter: brightness(.9);
+    width: 100%;
+}
+
+/* Testimonoals */
+#testimonials {
+    background: url('https://i.pinimg.com/originals/bd/4b/45/bd4b45c72d463584da6fd4d4baf309aa.gif') 
+    no-repeat center center/cover;
+    padding: 0px;
+    height: fit-content;
+    max-height: fit-content;
+
+}
+
+#testimonials h2{
+    line-height:3.5rem
+}
+
+#testimonials h2 {
+    margin: 50px 0;
+}
+
+#testimonials .testimonial {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 40px;
+}
